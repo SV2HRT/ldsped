@@ -12,7 +12,7 @@
 
 
 # Configure your mkiss command here, see also man mkiss
-MKISSCOMMAND="mkiss -s 9600 /dev/ttyS0 -x 2"
+MKISSCOMMAND="mkiss -s 19200 /dev/ttyS0 -x 2"
 
 # Now add as many port/address pairs as there are Unix98 ptys created with the
 # previous command 
@@ -21,10 +21,10 @@ MKISSCOMMAND="mkiss -s 9600 /dev/ttyS0 -x 2"
 #  - with a maximum of 4 ptys
 
 KISSATTACH_PORT[1]="radio1"
-KISSATTACH_ADDR[1]="192.168.10.1"
+KISSATTACH_ADDR[1]="44.128.1.10"
 
 KISSATTACH_PORT[2]="radio2"
-KISSATTACH_ADDR[2]="192.168.11.1"
+KISSATTACH_ADDR[2]="44.128.1.12"
 
 #KISSATTACH_PORT[3]="radio3"
 #KISSATTACH_ADDR[3]="192.168.12.1"
